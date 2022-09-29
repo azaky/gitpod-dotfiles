@@ -7,7 +7,8 @@ git config --global alias.s status
 go install github.com/cosmtrek/air@latest
 
 # Install serve, to serve static files
-npm i -g serve
+# Install nodemon for autoreload
+npm i -g serve nodemon
 
 # Install doppler
 # https://docs.doppler.com/docs/install-cli
